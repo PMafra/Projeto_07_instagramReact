@@ -1,6 +1,5 @@
 import Usuario from "./Usuario";
 import Sugestoes from "./Sugestoes";
-import Links_Copyright from "./Links_Copyright";
 
 export default function SideBar () {
     return (

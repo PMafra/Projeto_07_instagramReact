@@ -1,6 +1,6 @@
-import Navbar from "./Navbar";
-import Corpo from "./Corpo";
-import FundoMobile from "./FundoMobile";
+import Navbar from "./Components/Navbar/Navbar";
+import Corpo from "./Components/Corpo/Corpo";
+import FundoMobile from "./Components/FundoMobile/FundoMobile";
 
 export default function App () {
     return (
@@ -11,4 +11,3 @@ export default function App () {
         </div>
     );
 }
-

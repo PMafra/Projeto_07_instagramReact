@@ -15,9 +15,9 @@ export default function Fundo (props) {
             </div>
 
             <div class="curtidas">
-                <img src={`assets/img/${props.imgId}.svg`} />
+                <img src={`assets/img/${props.userLike}.svg`} />
                 <div class="texto">
-                    Curtido por <strong>{props.imgId}</strong> e <strong>outras {props.likes} pessoas</strong>
+                    Curtido por <strong>{props.userLike}</strong> e <strong>outras {props.likes} pessoas</strong>
                 </div>
             </div>
         </div>
