@@ -1,16 +1,16 @@
 import Sugestao from "./Sugestao";
 
 export default function Sugestoes () {
-    const suggestionNames = ["bad.vibes.memes", "chibirdart", "razoesparaacreditar", "adorable_animals", "smallcutecats"];
+    const suggestions = [{userName:"bad.vibes.memes", situation: "Segue você"}, {userName:"chibirdart", situation: "Segue você"}, {userName:"razoesparaacreditar", situation: "Novo no Instagram"}, {userName:"adorable_animals", situation: "Segue você"}, {userName:"smallcutecats", situation: "Segue você"}];
 
     return (
-        <div class="Sugestoes">
+        <div class="sugestoes">
             <div class="titulo">
                 Sugestões para você
                 <div>Ver tudo</div>
             </div>
-            {suggestionNames.map(suggName =>
-                <Sugestao userName={suggName} />  
+            {suggestions.map(sugg =>
+                <Sugestao userName={sugg.userName} situation={sugg.situation}/>
             )}
         </div>
     )

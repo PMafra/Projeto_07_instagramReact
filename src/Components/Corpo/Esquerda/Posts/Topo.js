@@ -1,4 +1,5 @@
 export default function Topo (props) {
+    console.log(props);
     return (
         <div class="topo">
             <div class="usuario">
