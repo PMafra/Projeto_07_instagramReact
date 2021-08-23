@@ -5,7 +5,8 @@ import Fundo from "./Fundo";
 export default function Posts () {
     const postsInfo = [
         {userName:"meowed", postImg:"gato-telefone", userLike:"respondeai", likes:"101.523"},
-        {userName:"barked", postImg:"dog", userLike:"adorable_animals", likes:"99.159"}
+        {userName:"barked", postImg:"dog", userLike:"adorable_animals", likes:"99.159"},
+        {userName:"meowed", postImg:"video", userLike:"respondeai", likes:"203.765"}
     ];
 
     return (
